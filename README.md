@@ -2,16 +2,19 @@
 Trabalho desenvolvido durante a disciplina de BD
 
 # Sumário
-
+  
 ### 1.COMPONENTES<br>
-Integrantes do grupo<br>
-
+Isabella de Assis e Sergio Vago <br>
+  
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> e motivação da escolha realizada. <br>
-
+  
 ### 3.MINI-MUNDO<br>
-Descrever o mini-mundo. Não deve ser maior do que 30 linhas <br>
-
+O banco de dados de receita foi pensado em algo que funcionaria, basicamente, como um livro grande de receitas aonde seu grande diferencial dos sites e aplicativos já existentes que disponibilizam esse mesmo serviço e na ferramenta de busca que funcionaria com palavras chaves ao invés de uma frase inteira, assim, possibilitando ao usuário pesquisar receitas de acordo com o que ele já tem em casa ou que ele pretende usar em uma receita. A ideia principal e que o site também ofereça aos usuários uma simples interação - como comentar, aprovar ou reprovar uma receita. Onde esse usuário terá/fornecerá tais informações: - Obrigatório: E-mail (para Login e contato); senha; Nome e sobrenome; Apelido para exibição; - Opcional: Telefone; Endereço; Sexo; Foto.                      
+ +Nos menus principais do site terá a página inicial e a página com as categorias de receitas (massas, sobremesas, refeições, bebidas, drinks, vegano, vegetariano, petiscos). Onda a receita terá os seguintes atributos: Ingredientes; Modo de preparo; Tempo de preparo; Porções; Descrição; Foto; Vídeo Tutorial;
+ +
+ +O visitante poderá se cadastrar no site, assim mantendo-se atualizado sobre novas receitas que possam lhe interessar (sugestões serão feitas através do envio de e-mails baseadas nas preferencias, interações e avaliações do usuário no site). Na página inicial/principal terá um ranking dizendo quais as três receitas melhor avaliadas pelos usuários na semana (função permitida somente para quem estiver cadastrado e ligado no site), assim como, também haverá a receita mais bem avaliadas entre todas, na semana, na aba principal das categorias.
+ 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
