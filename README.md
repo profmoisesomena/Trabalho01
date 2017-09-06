@@ -57,18 +57,18 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 
 ### 6	MODELO LÓGICO<br>
-### 7	MODELO FÍSICO<br>
-
-        Entrega até este ponto em (data a ser definida)
-        
+### 7	MODELO FÍSICO<br>    
  
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
+
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
         Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
         Referenciar todas as fontes referentes a :
         a) obtenção dos dados
         b) obtenção de códigos reutilizados
         c) fontes de estudo para desenvolvimento do projeto
+
+## Entrega até este ponto em (18/09/2017)
         
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
         a) inclusão das instruções para criação das tabelas e estruturas de amazenamento do BD
@@ -76,7 +76,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         c) inclusão das instruções para execução de outros procedimentos necessários
 
 
-        Entrega até este ponto em (data a ser definida)
+
         
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
