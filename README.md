@@ -1,4 +1,4 @@
-# TRABALHO 01
+# TRABALHO 01 - Cook Inc
 Trabalho desenvolvido durante a disciplina de BD
 
 # Sumário
