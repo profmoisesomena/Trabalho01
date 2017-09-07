@@ -21,6 +21,8 @@ Nosso Modelo (mockup) em PDF:<br>
 https://github.com/CookIncBD2/Trabalho01/blob/master/Cook%20Inc.pdf<br>
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
+Tabela: https://github.com/CookIncBD2/Trabalho01/blob/master/CookInc(Tabela)_Isabella_e_Sergio.ods
+
     a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
     b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
     e deve ser criada antes do modelo conceitual
