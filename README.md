@@ -11,11 +11,13 @@ Jean Carlos(jcferreirasilva0@gmail.com)<br>
 O projeto Preço Baixo consiste em uma aplicação na qual o usuário poderá fazer buscas, afim de encontrar o menor preço em algum supermercado do produto desejado. Este projeto visa ajudar as pessoas que procuram economizar na hora de ir as compras. <br>
 
 ### 3.MINI-MUNDO<br>
-Devido a crise econômica que passamos em nosso país, muitos buscam economizar o máximo possível. Com isso em mente, veio a ideia de criar uma aplicação que ajudaria as pessoas a economizar nas compras em supermercados. Entretanto, por vezes, a economia resultante em cada produto pode parecer ser pouca, porém, no valor final do carrinho traz uma boa diferença.
+Devido a crise econômica que passamos em nosso país, muitos buscam economizar o máximo possível. Com isso em mente, veio a ideia de criar uma aplicação que ajudaria as pessoas a economizar nas compras em supermercados. Diante disto, a aplicação consistiria em um buscador de ofertas.
 
-Diante disto, a aplicação consisti em um buscador de ofertas. Na qual o usuário pode pesquisar por um determinado produto, afim de encontrar o menor preço, bem como onde se encontra o local da oferta (sendo que essas informações estão contidas em uma publicação), além de poder filtrar por categoria (Feira, Enlatados, Massas, Higiene, etc). Mas, para isso tudo ocorrer, é vital a participação dos usuários, pois eles que ficam encarregados de colaborar com as publicações de promoções, bem como adicionar novas categorias e supermercados. Os usuários têm um perfil, que inclui um login, senha, nome, email e, optativamente, uma foto.
+O usuário tem uma conta, que inclui um login, senha, nome, email e, optativamente, uma foto. Para entrar em sua conta, ele teria que usar seu login e senha. Ao entrar, encontraria as ofertas recentes, as categorias (Feira, Enlatados, Massas, Higiene, etc), a opção de pesquisa, bem como a opção de adicionar uma nova promoção.
 
-Com isso, a aplicação cresceria se tornando uma grande comunidade que ajudaria a muitas pessoas na hora de ir as compras no supermercado. <br>
+O usuário pode pesquisar por um determinado produto, afim de encontrar o menor preço, bem como onde se encontra a oferta, e uma foto da mesma(optativo), sendo que essas informações estão contidas em uma publicação. Além de também poder filtrar por categoria (Feira, Enlatados, Massas, Higiene, etc). Ao adicionar nova oferta, o usuário tem que incluir as mesmas informações que ele encontra ao pesquisar por uma oferta.
+
+Mas, Lembrando que para tudo ocorra bem, é vital a participação dos usuários, pois eles que ficam encarregados de colaborar com as publicações de promoções, bem como adicionar novas categorias e supermercados. E com essa interação dos usuários, a aplicação cresceria, se tornando uma grande comunidade que ajudaria a muitas pessoas na hora de ir as compras no supermercado. <br>
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
