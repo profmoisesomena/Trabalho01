@@ -16,7 +16,7 @@ Nos menus principais do site terá a página inicial e a página com as categori
 O visitante poderá se cadastrar no site, assim mantendo-se atualizado sobre novas receitas que possam lhe interessar (sugestões serão feitas através do envio de e-mails baseadas nas preferencias, interações e avaliações do usuário no site). Na página inicial/principal terá um ranking dizendo quais as três receitas melhor avaliadas pelos usuários na semana (função permitida somente para quem estiver cadastrado e ligado no site), assim como, também haverá a receita mais bem avaliadas entre todas, na semana, na aba principal das categorias.
  
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/Conceitual_CookInc.pngraw=true "MOCKUP")
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/Conceitual_CookInc.pngr?raw=true "MOCKUP")
 
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
