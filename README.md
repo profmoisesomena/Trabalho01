@@ -26,16 +26,16 @@ Tabela: https://github.com/CookIncBD2/Trabalho01/blob/master/CookInc(Tabela)_Isa
 4.2. a) O sistema fornecerá os seguintes relatórios e informações com releção ao usuário: email, senha, apelido, sexo, nome completo, telefone e UF; com relação a receitas: nome da receita, votos positivios e negativos, imagem da receita, ingrediente, modo de preparo, prorções, tempo de preparo, video tutorial, categoria, posição no ranking, comentario sobre a pessoa e o número de seguidores da mesma.
 
 b)
-1- Quais receitas o usuário enviou
-2- Quantidade de votos positivos em uma receita
-3- Quantidade de votos negativos em uma receita
-4- Nome do usuário que enviou a receita
-5- Nome do usuário que comentou uma receita 
-6- Nome do usuário que comentou outro usuário
-7- A qual categoria cada receita pertence
-8- As regiões onde os usuários se localizam
-9- O sexo predominante entre os usuários
-10- Número de seguidores de cada usuário
+1- Quais receitas o usuário enviou</br>
+2- Quantidade de votos positivos em uma receita</br>
+3- Quantidade de votos negativos em uma receita</br>
+4- Nome do usuário que enviou a receita</br>
+5- Nome do usuário que comentou uma receita </br>
+6- Nome do usuário que comentou outro usuário</br>
+7- A qual categoria cada receita pertence</br>
+8- As regiões onde os usuários se localizam</br>
+9- O sexo predominante entre os usuários</br>
+10- Número de seguidores de cada usuário</br>
 
 
 ### 5.MODELO CONCEITUAL<br>
