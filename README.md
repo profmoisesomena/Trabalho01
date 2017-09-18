@@ -20,21 +20,12 @@ O usuário pode pesquisar por um determinado produto, afim de encontrar o menor 
 Mas, lembrando que para tudo ocorra bem, é vital a participação dos usuários, pois eles que ficam encarregados de colaborar com as publicações de promoções, bem como adicionar novas categorias e supermercados. E com essa interação dos usuários, a aplicação cresceria, se tornando uma grande comunidade que ajudaria a muitas pessoas na hora de ir as compras no supermercado. <br>
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
-Sugestão: https://balsamiq.com/products/mockups/<br>
-
-![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
-
-
-
+[Preço Baixo.pdf](https://github.com/discipbdtec/Trabalho01/files/1309587/Preco.Baixo.pdf)
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
-    a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
-    b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
-    e deve ser criada antes do modelo conceitual
-    c) Após criada esta tabela não deve ser modificada, pois será comparada com a tabela final na conclusão do trabalho
     
+[Tabela BD.xlsx](https://github.com/discipbdtec/Trabalho01/files/1309585/Tabela.BD.xlsx)
     
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
