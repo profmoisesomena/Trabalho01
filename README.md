@@ -17,8 +17,8 @@ O visitante poderá se cadastrar no site, assim mantendo-se atualizado sobre nov
  
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Nosso Modelo (mockup) em PDF:<br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/Cook%20Inc.pdf?raw=true "MOCKUP")
 
-https://github.com/CookIncBD2/Trabalho01/blob/master/Cook%20Inc.pdf<br>
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
 Tabela: https://github.com/CookIncBD2/Trabalho01/blob/master/CookInc(Tabela)_Isabella_e_Sergio.ods
