@@ -27,6 +27,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
 
 
+
+
 #### 4.1 TABELA DE DADOS DO SISTEMA:
     a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
     b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
@@ -40,7 +42,9 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 ### 5.MODELO CONCEITUAL<br>
     a) NOTACAO ENTIDADE RELACIONAMENTO
-![Alt text](https://github.com/discipbd1/trab01/blob/master/sample_MC.png?raw=true "Modelo Conceitual")
+
+![modelo_conceitual](https://user-images.githubusercontent.com/31417921/30527137-b4f78412-9bfb-11e7-821d-e4ff7cf7272c.png)
+
     
     b) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 
