@@ -1,0 +1,134 @@
+/* Modelo_Lógico: */
+
+CREATE TABLE USUÁRIO_IMAGEM (
+    cod_usuario INT,
+    nome varchar(100),
+    login varchar(15),
+    passwd varchar(8),
+    email varchar(100),
+    id_imagem INT,
+    link varchar(100),
+    PRIMARY KEY (cod_usuario, id_imagem)
+);
+
+CREATE TABLE UN_MEDIDA (
+    id_un_medida INT PRIMARY KEY,
+    kg booliano,
+    unidade booliano
+);
+
+CREATE TABLE CATEGORIA (
+    id_categoria INT PRIMARY KEY,
+    nome varchar(100)
+);
+
+CREATE TABLE PUBLICAÇÃO_PRODUTO (
+    id_publicacao INT,
+    nome varchar(100),
+    id_produto INT,
+    preco FLOAT,
+    PRIMARY KEY (id_publicacao, id_produto)
+);
+
+CREATE TABLE SUPERMERCADO (
+    id_supermercado INT PRIMARY KEY,
+    nome varchar(100)
+);
+
+CREATE TABLE CIDADE (
+    id_cidade INT PRIMARY KEY,
+    nome varchar(100)
+);
+
+CREATE TABLE BAIRRO (
+    id_bairro INT PRIMARY KEY,
+    nome varchar(100)
+);
+
+CREATE TABLE Posta (
+    FK_USUÁRIO_IMAGEM_cod_usuario INT,
+    FK_PUBLICAÇÃO_PRODUTO_id_publicacao INT
+);
+
+CREATE TABLE Quantidade (
+    FK_UN_MEDIDA_id_un_medida INT,
+    FK_PRODUTO_id_produto INT
+);
+
+CREATE TABLE Descrição (
+    FK_CATEGORIA_id_categoria INT,
+    FK_PRODUTO_id_produto INT
+);
+
+CREATE TABLE Possui (
+    FK_IMAGEM_id_imagem INT,
+    FK_PRODUTO_id_produto INT
+);
+
+CREATE TABLE Local (
+    FK_SUPERMERCADO_id_supermercado INT,
+    FK_PUBLICAÇÃO_PRODUTO_id_publicacao INT,
+    FK_PUBLICAÇÃO_PRODUTO_id_produto INT
+);
+
+CREATE TABLE Endereço (
+    FK_SUPERMERCADO_id_supermercado INT,
+    FK_BAIRRO_id_bairro INT
+);
+
+CREATE TABLE Está (
+    FK_BAIRRO_id_bairro INT,
+    FK_CIDADE_id_cidade INT
+);
+ 
+ALTER TABLE Posta ADD CONSTRAINT FK_Posta_0
+    FOREIGN KEY (FK_USUÁRIO_IMAGEM_cod_usuario, ???)
+    REFERENCES USUÁRIO_IMAGEM (cod_usuario, ???);
+ 
+ALTER TABLE Posta ADD CONSTRAINT FK_Posta_1
+    FOREIGN KEY (FK_PUBLICAÇÃO_PRODUTO_id_publicacao, ???)
+    REFERENCES PUBLICAÇÃO_PRODUTO (id_publicacao, ???);
+ 
+ALTER TABLE Quantidade ADD CONSTRAINT FK_Quantidade_0
+    FOREIGN KEY (FK_UN_MEDIDA_id_un_medida)
+    REFERENCES UN_MEDIDA (id_un_medida);
+ 
+ALTER TABLE Quantidade ADD CONSTRAINT FK_Quantidade_1
+    FOREIGN KEY (FK_PRODUTO_id_produto)
+    REFERENCES ??? (???);
+ 
+ALTER TABLE Descrição ADD CONSTRAINT FK_Descrição_0
+    FOREIGN KEY (FK_CATEGORIA_id_categoria)
+    REFERENCES CATEGORIA (id_categoria);
+ 
+ALTER TABLE Descrição ADD CONSTRAINT FK_Descrição_1
+    FOREIGN KEY (FK_PRODUTO_id_produto)
+    REFERENCES ??? (???);
+ 
+ALTER TABLE Possui ADD CONSTRAINT FK_Possui_0
+    FOREIGN KEY (FK_IMAGEM_id_imagem, FK_PRODUTO_id_produto)
+    REFERENCES ??? (???);
+ 
+ALTER TABLE Local ADD CONSTRAINT FK_Local_0
+    FOREIGN KEY (FK_SUPERMERCADO_id_supermercado)
+    REFERENCES SUPERMERCADO (id_supermercado);
+ 
+ALTER TABLE Local ADD CONSTRAINT FK_Local_1
+    FOREIGN KEY (FK_PUBLICAÇÃO_PRODUTO_id_publicacao, FK_PUBLICAÇÃO_PRODUTO_id_produto)
+    REFERENCES PUBLICAÇÃO_PRODUTO (id_publicacao, id_produto);
+ 
+ALTER TABLE Endereço ADD CONSTRAINT FK_Endereço_0
+    FOREIGN KEY (FK_SUPERMERCADO_id_supermercado)
+    REFERENCES SUPERMERCADO (id_supermercado);
+ 
+ALTER TABLE Endereço ADD CONSTRAINT FK_Endereço_1
+    FOREIGN KEY (FK_BAIRRO_id_bairro)
+    REFERENCES BAIRRO (id_bairro);
+ 
+ALTER TABLE Está ADD CONSTRAINT FK_Está_0
+    FOREIGN KEY (FK_BAIRRO_id_bairro)
+    REFERENCES BAIRRO (id_bairro);
+ 
+ALTER TABLE Está ADD CONSTRAINT FK_Está_1
+    FOREIGN KEY (FK_CIDADE_id_cidade)
+    REFERENCES CIDADE (id_cidade);
