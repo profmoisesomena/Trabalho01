@@ -34,7 +34,7 @@ Mas, lembrando que para tudo ocorra bem, é vital a participação dos usuários
 ### 5.MODELO CONCEITUAL<br>
     a) NOTACAO ENTIDADE RELACIONAMENTO
 
-![modelo_conceitual](https://user-images.githubusercontent.com/31417921/30527137-b4f78412-9bfb-11e7-821d-e4ff7cf7272c.png)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_conceitual.png)
 
     
     b) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
@@ -93,10 +93,12 @@ Mas, lembrando que para tudo ocorra bem, é vital a participação dos usuários
 
 
 ### 6	MODELO LÓGICO<br>
-### 7	MODELO FÍSICO<br>
 
-        Entrega até este ponto em (data a ser definida)
-        
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_l%C3%B3gico.png)
+
+### 7	MODELO FÍSICO<br>
+ [Modelo_físico.txt](https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_f%C3%ADsico.txt)
+              
  
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
