@@ -21,7 +21,7 @@ Mas, lembrando que para tudo ocorra bem, é vital a participação dos usuários
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
-[Preço Baixo.pdf](https://github.com/discipbdtec/Trabalho01/files/1309587/Preco.Baixo.pdf)
+[Preço Baixo.pdf]()
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
     
@@ -34,10 +34,10 @@ Mas, lembrando que para tudo ocorra bem, é vital a participação dos usuários
 ### 5.MODELO CONCEITUAL<br>
     a) NOTACAO ENTIDADE RELACIONAMENTO
 
-![Alt text]()
+![Alt text](
 
     
-    b) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
+    
 
 #### 5.1 Validação do Modelo Conceitual
     EuPreciso: Criscia de Oliveira Souza e Hannah Santos Lucas
@@ -97,10 +97,10 @@ Mas, lembrando que para tudo ocorra bem, é vital a participação dos usuários
 
 ### 6	MODELO LÓGICO<br>
 
-![Alt text]()
+![Alt text])
 
 ### 7	MODELO FÍSICO<br>
- [Modelo_físico.txt](https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_f%C3%ADsico.txt)
+ [Modelo_físico.txt]()
               
  
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
