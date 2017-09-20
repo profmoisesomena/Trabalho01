@@ -111,6 +111,9 @@ b)
     nome: campo que armazena o nome da categoria.
     
 ### 6	MODELO LÓGICO<br>
+
+Modelo lógico: https://github.com/CookIncBD2/Trabalho01/blob/master/L%C3%B3gico___CookInc.brM3
+
 ### 7	MODELO FÍSICO<br>
 
         Entrega até este ponto em (data a ser definida)
