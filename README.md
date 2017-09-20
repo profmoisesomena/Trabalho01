@@ -47,19 +47,69 @@ b)
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 DECISÕES DE PROJETO
-    EXEMPLO:
-    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
-    pode possuir para cada departamento mais de uma localização... 
-    b) justifique!
+    Tabela USUARIO:</br>
+      Campo id_user: optamos por utilizar um campo simples para indentificação do usuário na hora de realizar algum tipo de consulta.</br>
+      Campo email, senha, apelido, nome_completo, telefone: optamos por utilizar campos simples, apenas para registro em nosso sistema e futuras utilizações em modo de exibição.</br>
+    Tabela SEXO:</br>
+      Campo id_sexo: optamos por utilizar um campo simples para indentificação do usuário na hora de realizar algum tipo de consulta, pois será apenas 0 e 1, indicando 'M' ou 'F'.</br>
+      Campo m/f: optamos por utilizar um campo simples para correlação com seu respectivo ID.</br>
+    Tabela ENDERECO:</br>
+      Campo id_endereco: optamos por utilizar um campo simples para facil indentificação do seu respectivo UF.</br>
+      Campo nome(uf): campo simples apenas para relacionar o ID com o estado(UF).</br>
+    Tabela COMENTARIO:</br>
+      Campo id_coment: campo simples apenas para relacionar o ID com o texto.</br>
+      Campo texto: Campo multivalorado, pois ele irá armazenar todo o texto digitado pelo usuário.</br>
+    Tabela ENVIADO/RECEBIDO:</br>
+      Campo id_coment: optamos por utilizar um campo simples para indentificação do usuário na hora de realizar algum tipo de consulta, pois será apenas 0 e 1, indicando 'Enviado' ou 'Recebido'.</br>
+      Campo enviad/receb: optamos por utilizar um campo simples para correlação com seu respectivo ID.</br>
+    Tabela CATEGORIA:</br>
+      Campo id_coment: optamos por utilizar um campo simples para indentificação do usuário na hora de realizar algum tipo de consulta, pois será amazenado cada categoria com um número indentificador.</br>
+      Campo nome: optamos por utilizar um campo simples apenas para guardar o nome da categoria e para correlação com seu respectivo ID.</br>
+    Tabela RECEITA:</br>
+      Campo id_rec: campo simples, pois será apenas para indentificação.</br>
+      Campos nome, imagem, video_tutorial, colocacao, porcoes, tempo de preparo, contador_top, contador_lixo: Optamos na ultilização de campo simples, pois será o sefuciente para nosso projeto.</br>
+      Campos ingrediente, modo de praparo: optamos por campos simples, porém com uma grande quantidade de armazenamento de texto.</br>
+    
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
     [objeto]: [descrição do objeto]
     
     EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
-
-
+    SEXO: Tabela que armazena as informações relativas ao sexo do usuário.</br>
+    USUARIO: Tabela que armazena as informações relativas ao usuário.</br>
+    ENDERECO: Tabela que armazena as informações relativas ao endereco do usuário.</br>
+    COMENTARIO: Tabela que armazena as informações relativas ao comentario que o usuário fez/recebeu.</br>
+    CATEGORIA Tabela que armazena as informações relativas às categorias.</br>
+    RECEITA: Tabela que armazena as informações relativas a receita.<br>
+    
+    id_sexo: campo que armazena o número de id que cada sexo representa.</br>
+    m/f: campo que armazena o sexo do usuario.</br>
+    email: campo que armazena o email do usuário.</br>
+    senha: campo que armazena a senha do usuário.</br>
+    apelido: campo que armazena o apelido do usuário.</br>
+    nome_completo: campo que armazena o nome completo do usuário.</br>
+    telefone: campo que armazena o telefone do usuário.</br>
+    num_seguidores: campo que armazena o número de seguidores do usuário.</br>
+    receitas_enviadas: campo que armazena as receitas enviadas pelo usuário.</br>
+    id_rec: campo que armazena o ID da receita.</br>
+    nome: campo que armazena o nome da receita.</br>
+    imagem: campo que armazena o link da imagem da receita.</br>
+    video_tutorial: campo que armazena o link do video tutorial da receita.</br>
+    colocacao: campo que armazena a posição no ranking da receita.</br>
+    ingrediente: campo que armazena os ingredientes da receita.</br>
+    modo_de_preparo: campo que armazena o modo de preparo da receita.</br>
+    porcoes: campo que armazena a quantidade de porções da receita.</br>
+    tempo_de_preparo: campo que armazena o tempo de preparo da receita.</br>
+    contador_top: campo que armazena a quantidade de votos positivos que a receita recebeu.</br>
+    contador_lixo: campo que armazena a quantidade de votos negativos que a receita recebeu.</br>
+    nome{uf): campo que armazena os diferentes UFs existentes.</br>
+    id_endereco: campo que armazena o id dos UFs.</br>
+    id_coment: campo que armazena o id dos comentário.</br>
+    texto: campo que armazena o texto do comentário.</br>
+    envia_receb: campo que armazena comentário foi enviado ou recebido pleo usuários.</br>
+    id_cat: campo que armazena o id da categoria.</br>
+    nome: campo que armazena o nome da categoria.</br>
+    
 ### 6	MODELO LÓGICO<br>
 ### 7	MODELO FÍSICO<br>
 
