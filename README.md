@@ -72,9 +72,7 @@ b)
     
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
-    [objeto]: [descrição do objeto]
-    
-    EXEMPLO:
+
     SEXO: Tabela que armazena as informações relativas ao sexo do usuário.
     USUARIO: Tabela que armazena as informações relativas ao usuário.
     ENDERECO: Tabela que armazena as informações relativas ao endereco do usuário.
@@ -115,6 +113,8 @@ b)
 Modelo lógico: https://github.com/CookIncBD2/Trabalho01/blob/master/L%C3%B3gico___CookInc.brM3
 
 ### 7	MODELO FÍSICO<br>
+
+Script do Modelo Físico: https://github.com/CookIncBD2/Trabalho01/blob/master/CookInc_SQLScript___Sergio_Isabella.sql
 
         Entrega até este ponto em (data a ser definida)
         
