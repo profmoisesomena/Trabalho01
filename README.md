@@ -34,54 +34,57 @@ Mas, lembrando que para tudo ocorra bem, é vital a participação dos usuários
 ### 5.MODELO CONCEITUAL<br>
     a) NOTACAO ENTIDADE RELACIONAMENTO
 
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_conceitual.png)
+![Alt text]()
 
     
     b) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    EuPreciso: Criscia de Oliveira Souza e Hannah Santos Lucas
+    CookInc: Sergio Vago e Isabella de Assis
 
 #### 5.2 DECISÕES DE PROJETO
-    [atributo]: [descrição da decisão]
-    
-    EXEMPLO:
-    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
-    pode possuir para cada departamento mais de uma localização... 
-    b) justifique!
-#####    USUÁRIO
+    USUÁRIO:
         Campo cod_usuario: foi escolhido o campo como chave primária; é um atributo do tipo INT, que será o identificador da tabela Usuário.
         Campo nome: optou-se por usar o tipo varchar, o qual representa o nome real do usuário, e pode incluir caracteres e números com comprimento variável.
         Campo login: optou-se por usar o tipo varchar, o qual representa o login (nome) do usuário para entrar na aplicação, e pode incluir caracteres e números com comprimento variável.
         Campo passwd: optou-se por usar o  tipo varchar, o qual vai representar a senha (password) do usuário, que pode incluir     caracteres e números com comprimento variável.
         Campo email: foi escolhido o tipo varchar, que pode incluir caracteres e números de comprimento variáveis; vai representar uma informação de validação do usuário.
-####     IMAGEM
+        
+    IMAGEM:
         Campo id_imagem: foi escolhido usar o tipo INT, pois vai ser um identificador numérico da tabela.
         Campo link: optou-se por usar o tipo varchar, que pode incluir caracteres e números de comprimento variável, sendo que será o atributo que comportará o local (endereço) da imagem.
-####     PUBLICAÇÃO
+    
+    PUBLICAÇÃO:
         Campo id_publicacao: foi escolhido usar o tipo INT, pois vai ser um identificador numérico da tabela.
         Campo nome: optou-se por usar o tipo varchar, o qual representa o nome (título) da publicação, e pode incluir caracteres e números com comprimento variável.
-####     PRODUTO
+    
+    PRODUTO:
         Campo id_produto: foi escolhido usar o tipo INT, pois vai ser um identificador numérico da tabela.
         Campo nome: optou-se por usar o tipo varchar, o qual representa o nome do produto, e pode incluir caracteres e números com comprimento variável.
         Campo preco: optou-se por usar o tipo FLOAT, pois o atributo armazena números decimais (quebrados, ou com virgula).
-####     SUPERMERCADO
+    
+    SUPERMERCADO:
         Campo id_supermercado: foi escolhido usar o tipo INT (armazena um inteiro), pois vai ser um identificador numérico da tabela.
         Campo nome: optou-se por usar o tipo varchar, o qual representa o nome do supermercado, e pode incluir caracteres e números com comprimento variável.
-####     BAIRRO
+    
+    BAIRRO:
         Campo id_bairro: foi escolhido usar o tipo INT (armazena um inteiro), pois vai ser um identificador numérico da tabela.
         Campo nome: optou-se por usar o tipo varchar, o qual representa o nome do bairro, e pode incluir caracteres e números com comprimento variável.
-####     CIDADE
+     
+     CIDADE:
         Campo id_bairro: foi escolhido usar o tipo INT (armazena um inteiro), pois vai ser um identificador numérico da tabela.
         Campo nome: optou-se por usar o tipo varchar, o qual representa o nome da cidade, e pode incluir caracteres e números com comprimento variável.
-####     UN. MEDIDA
+    
+    UN. MEDIDA:
         Campo id_un_medida: foi escolhido usar o tipo INT (armazena um inteiro), pois vai ser um identificador numérico da tabela.
         Campo kg: optou-se por usar o tipo boolean, pois o campo é assinalado (1) ou não (0).
         Campo unidade: optou-se por usar o tipo boolean, pois o campo é assinalado (1) ou não (0).
-####     CATEGORIA
+    
+    CATEGORIA:
         Campo id_categoria: foi escolhido usar o tipo INT (armazena um inteiro), pois vai ser um identificador numérico da tabela.
         Campo nome: optou-se por usar o tipo varchar, o qual representa o nome da categoria, e pode incluir caracteres e números com comprimento variável.
+        
 #### 5.3 DESCRIÇÃO DOS DADOS 
     [objeto]: [descrição do objeto]
     
@@ -94,7 +97,7 @@ Mas, lembrando que para tudo ocorra bem, é vital a participação dos usuários
 
 ### 6	MODELO LÓGICO<br>
 
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_l%C3%B3gico.png)
+![Alt text]()
 
 ### 7	MODELO FÍSICO<br>
  [Modelo_físico.txt](https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_f%C3%ADsico.txt)
