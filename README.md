@@ -20,12 +20,13 @@ O usuário pode pesquisar por um determinado produto, afim de encontrar o menor 
 Mas, lembrando que para tudo ocorra bem, é vital a participação dos usuários, pois eles que ficam encarregados de colaborar com as publicações de promoções, bem como adicionar novas categorias e supermercados. E com essa interação dos usuários, a aplicação cresceria, se tornando uma grande comunidade que ajudaria a muitas pessoas na hora de ir as compras no supermercado. <br>
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Pre%C3%A7o-Baixo.png)
 
-[Preço Baixo.pdf]()
+Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Pre%C3%A7o%20Baixo.pdf
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
     
-[Tabela BD.xlsx](https://github.com/discipbdtec/Trabalho01/files/1309585/Tabela.BD.xlsx)
+Link: https://github.com/discipbdtec/Trabalho01/files/1309585/Tabela.BD.xlsx
     
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
@@ -34,9 +35,9 @@ Mas, lembrando que para tudo ocorra bem, é vital a participação dos usuários
 ### 5.MODELO CONCEITUAL<br>
     a) NOTACAO ENTIDADE RELACIONAMENTO
 
-![Alt text](
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_conceitual.png)
 
-    
+Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_conceitual.brM3    
     
 
 #### 5.1 Validação do Modelo Conceitual
@@ -97,10 +98,12 @@ Mas, lembrando que para tudo ocorra bem, é vital a participação dos usuários
 
 ### 6	MODELO LÓGICO<br>
 
-![Alt text])
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_l%C3%B3gico.png)
+
+Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_L%C3%B3gico.brM3
 
 ### 7	MODELO FÍSICO<br>
- [Modelo_físico.txt]()
+ Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_f%C3%ADsico.txt
               
  
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
