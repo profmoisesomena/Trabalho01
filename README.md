@@ -31,6 +31,10 @@ Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Tabela%20BD.xlsx
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 10 principais relatórios que podero ser obtidos por meio do sistema proposto!
+    
+    Mostrará relatorios de promoções, usuários e mercados, e informará preços, tipos de  produtos e locais de mercado.
+    Crie uma lista com os 10 principais relatórios que poderão ser obtidos por meio do sistema proposto:
+    promoções, usuários, mercados. 
 
 ### 5.MODELO CONCEITUAL<br>
     a) NOTACAO ENTIDADE RELACIONAMENTO
@@ -87,15 +91,14 @@ Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_conceitual.brM
         Campo nome: optou-se por usar o tipo varchar, o qual representa o nome da categoria, e pode incluir caracteres e números com comprimento variável.
         
 #### 5.3 DESCRIÇÃO DOS DADOS 
-    USUÁRIO:
-    IMAGEM:
-    PRODUTO:
-    SUPERMERCADO:
-    BAIRRO:
-    CIDADE:
-    UN. MEDIDA:
-    CATEGORIA:
-    
+    USUÁRIO: cod_usuario, nome, logi, password, email		
+    IMAGEM: id iamgem, link
+    PRODUTO: id_produto, nome, preco
+    SUPERMERCADO: id_mercado, nome
+    BAIRRO:id_bairro, nome
+    CIDADE: id_cidade, nome
+    UN. MEDIDA: kg, unidade, id_un_medida
+    CATEGORIA:nome, id_categoria
 ### 6	MODELO LÓGICO<br>
 
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_l%C3%B3gico.png)
