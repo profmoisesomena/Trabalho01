@@ -87,15 +87,15 @@ Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_conceitual.brM
         Campo nome: optou-se por usar o tipo varchar, o qual representa o nome da categoria, e pode incluir caracteres e números com comprimento variável.
         
 #### 5.3 DESCRIÇÃO DOS DADOS 
-    [objeto]: [descrição do objeto]
+    USUÁRIO:
+    IMAGEM:
+    PRODUTO:
+    SUPERMERCADO:
+    BAIRRO:
+    CIDADE:
+    UN. MEDIDA:
+    CATEGORIA:
     
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>   
-
-
-
-
 ### 6	MODELO LÓGICO<br>
 
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_l%C3%B3gico.png)
