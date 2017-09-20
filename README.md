@@ -47,28 +47,28 @@ b)
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 DECISÕES DE PROJETO
-    Tabela USUARIO:</br>
-      Campo id_user: optamos por utilizar um campo simples para indentificação do usuário na hora de realizar algum tipo de consulta.</br>
-      Campo email, senha, apelido, nome_completo, telefone: optamos por utilizar campos simples, apenas para registro em nosso sistema e futuras utilizações em modo de exibição.</br>
-    Tabela SEXO:</br>
-      Campo id_sexo: optamos por utilizar um campo simples para indentificação do usuário na hora de realizar algum tipo de consulta, pois será apenas 0 e 1, indicando 'M' ou 'F'.</br>
-      Campo m/f: optamos por utilizar um campo simples para correlação com seu respectivo ID.</br>
-    Tabela ENDERECO:</br>
-      Campo id_endereco: optamos por utilizar um campo simples para facil indentificação do seu respectivo UF.</br>
-      Campo nome(uf): campo simples apenas para relacionar o ID com o estado(UF).</br>
-    Tabela COMENTARIO:</br>
-      Campo id_coment: campo simples apenas para relacionar o ID com o texto.</br>
-      Campo texto: Campo multivalorado, pois ele irá armazenar todo o texto digitado pelo usuário.</br>
-    Tabela ENVIADO/RECEBIDO:</br>
-      Campo id_coment: optamos por utilizar um campo simples para indentificação do usuário na hora de realizar algum tipo de consulta, pois será apenas 0 e 1, indicando 'Enviado' ou 'Recebido'.</br>
-      Campo enviad/receb: optamos por utilizar um campo simples para correlação com seu respectivo ID.</br>
-    Tabela CATEGORIA:</br>
-      Campo id_coment: optamos por utilizar um campo simples para indentificação do usuário na hora de realizar algum tipo de consulta, pois será amazenado cada categoria com um número indentificador.</br>
-      Campo nome: optamos por utilizar um campo simples apenas para guardar o nome da categoria e para correlação com seu respectivo ID.</br>
-    Tabela RECEITA:</br>
-      Campo id_rec: campo simples, pois será apenas para indentificação.</br>
-      Campos nome, imagem, video_tutorial, colocacao, porcoes, tempo de preparo, contador_top, contador_lixo: Optamos na ultilização de campo simples, pois será o sefuciente para nosso projeto.</br>
-      Campos ingrediente, modo de praparo: optamos por campos simples, porém com uma grande quantidade de armazenamento de texto.</br>
+    Tabela USUARIO:
+      Campo id_user: optamos por utilizar um campo simples para indentificação do usuário na hora de realizar algum tipo de consulta.
+      Campo email, senha, apelido, nome_completo, telefone: optamos por utilizar campos simples, apenas para registro em nosso sistema e futuras utilizações em modo de exibição.
+    Tabela SEXO:
+      Campo id_sexo: optamos por utilizar um campo simples para indentificação do usuário na hora de realizar algum tipo de consulta, pois será apenas 0 e 1, indicando 'M' ou 'F'.
+      Campo m/f: optamos por utilizar um campo simples para correlação com seu respectivo ID.
+    Tabela ENDERECO:
+      Campo id_endereco: optamos por utilizar um campo simples para facil indentificação do seu respectivo UF.
+      Campo nome(uf): campo simples apenas para relacionar o ID com o estado(UF).
+    Tabela COMENTARIO:
+      Campo id_coment: campo simples apenas para relacionar o ID com o texto.
+      Campo texto: Campo multivalorado, pois ele irá armazenar todo o texto digitado pelo usuário.
+    Tabela ENVIADO/RECEBIDO:
+      Campo id_coment: optamos por utilizar um campo simples para indentificação do usuário na hora de realizar algum tipo de consulta, pois será apenas 0 e 1, indicando 'Enviado' ou 'Recebido'.
+      Campo enviad/receb: optamos por utilizar um campo simples para correlação com seu respectivo ID.
+    Tabela CATEGORIA:
+      Campo id_coment: optamos por utilizar um campo simples para indentificação do usuário na hora de realizar algum tipo de consulta, pois será amazenado cada categoria com um número indentificador.
+      Campo nome: optamos por utilizar um campo simples apenas para guardar o nome da categoria e para correlação com seu respectivo ID.
+    Tabela RECEITA:
+      Campo id_rec: campo simples, pois será apenas para indentificação.
+      Campos nome, imagem, video_tutorial, colocacao, porcoes, tempo de preparo, contador_top, contador_lixo: Optamos na ultilização de campo simples, pois será o sefuciente para nosso projeto.
+      Campos ingrediente, modo de praparo: optamos por campos simples, porém com uma grande quantidade de armazenamento de texto.
     
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
