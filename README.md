@@ -37,7 +37,7 @@ Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Tabela%20BD.xlsx
 
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_conceitual.png)
 
-Link:     
+Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_conceitual.brM3    
     
 
 #### 5.1 Validação do Modelo Conceitual
@@ -100,10 +100,10 @@ Link:
 
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_l%C3%B3gico.png)
 
-Link: 
+Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_L%C3%B3gico.brM3
 
 ### 7	MODELO FÍSICO<br>
- Link: 
+ Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_f%C3%ADsico.txt
               
  
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
