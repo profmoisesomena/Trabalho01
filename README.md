@@ -75,40 +75,40 @@ b)
     [objeto]: [descrição do objeto]
     
     EXEMPLO:
-    SEXO: Tabela que armazena as informações relativas ao sexo do usuário.</br>
-    USUARIO: Tabela que armazena as informações relativas ao usuário.</br>
-    ENDERECO: Tabela que armazena as informações relativas ao endereco do usuário.</br>
-    COMENTARIO: Tabela que armazena as informações relativas ao comentario que o usuário fez/recebeu.</br>
-    CATEGORIA Tabela que armazena as informações relativas às categorias.</br>
-    RECEITA: Tabela que armazena as informações relativas a receita.<br>
+    SEXO: Tabela que armazena as informações relativas ao sexo do usuário.
+    USUARIO: Tabela que armazena as informações relativas ao usuário.
+    ENDERECO: Tabela que armazena as informações relativas ao endereco do usuário.
+    COMENTARIO: Tabela que armazena as informações relativas ao comentario que o usuário fez/recebeu.
+    CATEGORIA Tabela que armazena as informações relativas às categorias.
+    RECEITA: Tabela que armazena as informações relativas a receita.
     
-    id_sexo: campo que armazena o número de id que cada sexo representa.</br>
-    m/f: campo que armazena o sexo do usuario.</br>
-    email: campo que armazena o email do usuário.</br>
-    senha: campo que armazena a senha do usuário.</br>
-    apelido: campo que armazena o apelido do usuário.</br>
-    nome_completo: campo que armazena o nome completo do usuário.</br>
-    telefone: campo que armazena o telefone do usuário.</br>
-    num_seguidores: campo que armazena o número de seguidores do usuário.</br>
-    receitas_enviadas: campo que armazena as receitas enviadas pelo usuário.</br>
-    id_rec: campo que armazena o ID da receita.</br>
-    nome: campo que armazena o nome da receita.</br>
-    imagem: campo que armazena o link da imagem da receita.</br>
-    video_tutorial: campo que armazena o link do video tutorial da receita.</br>
-    colocacao: campo que armazena a posição no ranking da receita.</br>
-    ingrediente: campo que armazena os ingredientes da receita.</br>
-    modo_de_preparo: campo que armazena o modo de preparo da receita.</br>
-    porcoes: campo que armazena a quantidade de porções da receita.</br>
-    tempo_de_preparo: campo que armazena o tempo de preparo da receita.</br>
-    contador_top: campo que armazena a quantidade de votos positivos que a receita recebeu.</br>
-    contador_lixo: campo que armazena a quantidade de votos negativos que a receita recebeu.</br>
-    nome{uf): campo que armazena os diferentes UFs existentes.</br>
-    id_endereco: campo que armazena o id dos UFs.</br>
-    id_coment: campo que armazena o id dos comentário.</br>
-    texto: campo que armazena o texto do comentário.</br>
-    envia_receb: campo que armazena comentário foi enviado ou recebido pleo usuários.</br>
-    id_cat: campo que armazena o id da categoria.</br>
-    nome: campo que armazena o nome da categoria.</br>
+    id_sexo: campo que armazena o número de id que cada sexo representa.
+    m/f: campo que armazena o sexo do usuario.
+    email: campo que armazena o email do usuário.
+    senha: campo que armazena a senha do usuário.
+    apelido: campo que armazena o apelido do usuário.
+    nome_completo: campo que armazena o nome completo do usuário.
+    telefone: campo que armazena o telefone do usuário.
+    num_seguidores: campo que armazena o número de seguidores do usuário.
+    receitas_enviadas: campo que armazena as receitas enviadas pelo usuário.
+    id_rec: campo que armazena o ID da receita.
+    nome: campo que armazena o nome da receita.
+    imagem: campo que armazena o link da imagem da receita.
+    video_tutorial: campo que armazena o link do video tutorial da receita.
+    colocacao: campo que armazena a posição no ranking da receita.
+    ingrediente: campo que armazena os ingredientes da receita.
+    modo_de_preparo: campo que armazena o modo de preparo da receita.
+    porcoes: campo que armazena a quantidade de porções da receita.
+    tempo_de_preparo: campo que armazena o tempo de preparo da receita.
+    contador_top: campo que armazena a quantidade de votos positivos que a receita recebeu.
+    contador_lixo: campo que armazena a quantidade de votos negativos que a receita recebeu.
+    nome{uf): campo que armazena os diferentes UFs existentes.
+    id_endereco: campo que armazena o id dos UFs.
+    id_coment: campo que armazena o id dos comentário.
+    texto: campo que armazena o texto do comentário.
+    envia_receb: campo que armazena comentário foi enviado ou recebido pleo usuários.
+    id_cat: campo que armazena o id da categoria.
+    nome: campo que armazena o nome da categoria.
     
 ### 6	MODELO LÓGICO<br>
 ### 7	MODELO FÍSICO<br>
