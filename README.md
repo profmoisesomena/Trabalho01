@@ -26,7 +26,7 @@ Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Pre%C3%A7o%20Baixo.pd
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
     
-Link: https://github.com/discipbdtec/Trabalho01/files/1309585/Tabela.BD.xlsx
+Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Tabela%20BD.xlsx
     
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
