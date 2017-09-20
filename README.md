@@ -39,7 +39,7 @@ b)
 
 ### 5.MODELO CONCEITUAL<br>
 
-![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/Conceitual_CookInc.png?raw=true "Modelo Conceitual")
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/Conceitual__CookInc.png?raw=true "Modelo Conceitual")
 
 
 #### 5.1 Validação do Modelo Conceitual
