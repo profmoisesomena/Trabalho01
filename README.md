@@ -98,7 +98,7 @@ Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_conceitual.brM
 
 ### 6	MODELO LÓGICO<br>
 
-![Alt text]()
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_l%C3%B3gico.png)
 
 Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_L%C3%B3gico.brM3
 
