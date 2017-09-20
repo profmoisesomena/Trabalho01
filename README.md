@@ -33,8 +33,9 @@ Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Tabela%20BD.xlsx
     b) Crie uma lista com os 10 principais relatórios que podero ser obtidos por meio do sistema proposto!
     
     Mostrará relatorios de promoções, usuários e mercados, e informará preços, tipos de  produtos e locais de mercado.
-    Crie uma lista com os 10 principais relatórios que poderão ser obtidos por meio do sistema proposto:
-    promoções, usuários, mercados. 
+    RELATÓRIOS:
+    -   Nome do Usuário;
+    -   Email do Usuário;
 
 ### 5.MODELO CONCEITUAL<br>
     a) NOTACAO ENTIDADE RELACIONAMENTO
