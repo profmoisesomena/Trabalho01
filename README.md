@@ -12,7 +12,7 @@ O projeto Preço Baixo consiste em uma aplicação na qual o usuário poderá fa
 
 ### 3.MINI-MUNDO<br>
 
-O usuário tem uma conta, que inclui um login, senha, nome, email e, optativamente, uma foto. Para entrar em sua conta, ele tem que usar seu login e senha. Ao entrar, encontraria as ofertas recentes, as categorias (Feira, Enlatados, Massas, Higiene, etc), a opção de pesquisa, bem como a opção de adicionar uma nova promoção.
+O Sistema terá em sua pagina inicial a opção de LOGIN, CADASTRO DE USUÁRIO e "ESQUECI MINHA SENHA". Para a criar um usuário haverá a inclusão do NOME, EMAIL, INCLUSÃO DE FOTO DE LOGIN, DATA DE NASCIMENTO, SENHA e CONFIRMAÇÃO DA SENHA. Agora, Se o utilizador estiver cadastrado e for realizar o LOGIN, necessariamente, terá que digitar o email e a senha, inseridos no ato de CADASTRO DE USUÁRIO. email e, optativamente, uma foto. Para entrar em sua conta, ele tem que usar seu login e senha. Ao entrar, encontraria as ofertas recentes, as categorias (Feira, Enlatados, Massas, Higiene, etc), a opção de pesquisa, bem como a opção de adicionar uma nova promoção.
 
 O usuário pode pesquisar por um determinado produto, afim de encontrar o menor preço, bem como onde se encontra a oferta, e uma foto da mesma (optativo), sendo que essas informações estão contidas em uma publicação. Além de também poder filtrar por categoria (Feira, Enlatados, Massas, Higiene, etc). Ao adicionar nova oferta, o usuário tem que incluir as mesmas informações que ele encontra ao pesquisar por uma oferta.
 
@@ -49,15 +49,12 @@ Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_conceitual.brM
     CookInc: Sergio Vago e Isabella de Assis
 
 #### 5.2 DECISÕES DE PROJETO
-    Não foi tomada nenhuma decisão especial.
-        
-#### 5.3 DESCRIÇÃO DOS DADOS 
     USUÁRIO:
-        Campo cod_usuario: é o identificador da tabela Usuário.
-        Campo nome: representa o nome real, pessoal do usuário.
-        Campo login: representa o login (nome) do usuário para entrar na aplicação.
-        Campo passwd: representa a senha (password) do usuário.
-        Campo email: representa o email do Usuário.
+        Campo cod_usuario: foi escolhido o campo como chave primária; é um atributo do tipo INT, que será o identificador da tabela Usuário.
+        Campo nome: optou-se por usar o tipo varchar, o qual representa o nome real do usuário, e pode incluir caracteres e números com comprimento variável.
+        Campo login: optou-se por usar o tipo varchar, o qual representa o login (nome) do usuário para entrar na aplicação, e pode incluir caracteres e números com comprimento variável.
+        Campo passwd: optou-se por usar o  tipo varchar, o qual vai representar a senha (password) do usuário, que pode incluir     caracteres e números com comprimento variável.
+        Campo email: foi escolhido o tipo varchar, que pode incluir caracteres e números de comprimento variáveis; vai representar uma informação de validação do usuário.
         
     IMAGEM:
         Campo id_imagem: foi escolhido usar o tipo INT, pois vai ser um identificador numérico da tabela.
@@ -92,6 +89,16 @@ Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_conceitual.brM
     CATEGORIA:
         Campo id_categoria: foi escolhido usar o tipo INT (armazena um inteiro), pois vai ser um identificador numérico da tabela.
         Campo nome: optou-se por usar o tipo varchar, o qual representa o nome da categoria, e pode incluir caracteres e números com comprimento variável.
+        
+#### 5.3 DESCRIÇÃO DOS DADOS 
+    USUÁRIO: cod_usuario, nome, logi, password, email		
+    IMAGEM: id iamgem, link
+    PRODUTO: id_produto, nome, preco
+    SUPERMERCADO: id_mercado, nome
+    BAIRRO:id_bairro, nome
+    CIDADE: id_cidade, nome
+    UN. MEDIDA: kg, unidade, id_un_medida
+    CATEGORIA:nome, id_categoria
 ### 6	MODELO LÓGICO<br>
 
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_l%C3%B3gico.png)
