@@ -4,7 +4,8 @@ Trabalho desenvolvido durante a disciplina de BD
 # Sumário
   
 ### 1.COMPONENTES<br>
-Isabella de Assis e Sergio Vago <br>
+Isabella de Assis: ifoxpoetic@gmail.com <br>
+Sergio Vago: sergio.vago@hotmail.com <br>
   
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> e motivação da escolha realizada. <br>
