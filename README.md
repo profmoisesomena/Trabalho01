@@ -8,7 +8,11 @@ Isabella de Assis: ifoxpoetic@gmail.com <br>
 Sergio Vago: sergio.vago@hotmail.com <br>
   
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados CookInc e motivação da escolha realizada. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;Este trabalho está sendo desenvolvido na disciplina de BD (Banco de Dados), junto com as disciplinas de APS (Anásile de Projeto e Sistemas) e LP (Linguagem de Programação) do curso Técnico de informática do Ifes Campus Serra. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;A nossa ideia veio a partir de nosso contexto social, onde a Isabella, integrante do grupo, sugeriu a criação de um site  onde haveria a busca por receitas de modo simples e prático. A partir disso, começamos a desenvolver nossa ideia e pensamos em um diferencial: a busca de receitas por palavra-chave. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;A nossa moivação, além da sede por aprendizado, é a obtenção de nota para aprovação da disciplina.
+&nbsp;&nbsp;&nbsp;&nbsp;O site basea-se basicamente em um sistema de cadastro e envio de receitas, uma interação simples entre os usuários e o sistema de busca de receitas por palavra-chave. <br>
+
   
 ### 3.MINI-MUNDO<br>
 &nbsp;&nbsp;&nbsp;&nbsp;A cookInc foi pensado no formato de um site que possuirá um gigante banco de dados que armazenam várias receitas.<br>
@@ -44,8 +48,8 @@ b)
 
 
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    [Grupo01]: [Ramom Matieli e Jean Carlos]
+    [Grupo02]: [João Pedro e Lucas Calazans]
 
 #### 5.2 DECISÕES DE PROJETO
     Tabela USUARIO:
