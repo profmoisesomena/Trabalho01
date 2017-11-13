@@ -111,8 +111,8 @@ Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_L%C3%B3gico.br
         Dados fictícios, obtidos através da criação da tabela.
         
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
-       Script para criação da tabela: https://github.com/PrecoBaixo/Trabalho01/blob/master/Cria%20banco%20de%20dados.sql
-       Script para inserção de dados na tabela: https://github.com/PrecoBaixo/Trabalho01/blob/master/insert.sql
+Script para criação e iserção: https://github.com/PrecoBaixo/Trabalho01/blob/master/Create%20e%20insert%20banco.sql
+       
         
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
