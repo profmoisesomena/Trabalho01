@@ -190,6 +190,8 @@ select * from un_medida;
 
 select * from usuario;
 
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/usuario.PNG)
+
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
 
 select * from bairro where nome = "Jardim da Penha";
