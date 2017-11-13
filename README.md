@@ -202,7 +202,7 @@ SCRIPT: https://github.com/CookIncBD2/Trabalho01/blob/master/9.5.sql <br>
 <br>
 #### 9.6	CONSULTAS COM JUNÇÃO <br>
 SCRIPT: https://github.com/CookIncBD2/Trabalho01/blob/master/9.6.sql <br>
-![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.6-1.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.6.png?raw=true) <br>
 <br>
 <br>
 <br>
