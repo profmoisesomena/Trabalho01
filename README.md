@@ -52,7 +52,10 @@ Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_conceitual.brM
     CookInc: Sergio Vago e Isabella de Assis
 
 #### 5.2 DECISÕES DE PROJETO
-    USUÁRIO:
+    Não foi tomada nenhuma decisão especial.
+        
+#### 5.3 DESCRIÇÃO DOS DADOS 
+     USUÁRIO:
         Campo cod_usuario: foi escolhido o campo como chave primária; é um atributo do tipo INT, que será o identificador da tabela Usuário.
         Campo nome: optou-se por usar o tipo varchar, o qual representa o nome real do usuário, e pode incluir caracteres e números com comprimento variável.
         Campo login: optou-se por usar o tipo varchar, o qual representa o login (nome) do usuário para entrar na aplicação, e pode incluir caracteres e números com comprimento variável.
@@ -93,15 +96,6 @@ Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_conceitual.brM
         Campo id_categoria: foi escolhido usar o tipo INT (armazena um inteiro), pois vai ser um identificador numérico da tabela.
         Campo nome: optou-se por usar o tipo varchar, o qual representa o nome da categoria, e pode incluir caracteres e números com comprimento variável.
         
-#### 5.3 DESCRIÇÃO DOS DADOS 
-    USUÁRIO: cod_usuario, nome, logi, password, email		
-    IMAGEM: id iamgem, link
-    PRODUTO: id_produto, nome, preco
-    SUPERMERCADO: id_mercado, nome
-    BAIRRO:id_bairro, nome
-    CIDADE: id_cidade, nome
-    UN. MEDIDA: kg, unidade, id_un_medida
-    CATEGORIA:nome, id_categoria
 ### 6	MODELO LÓGICO<br>
 
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_l%C3%B3gico.jpg)
@@ -114,19 +108,11 @@ Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_L%C3%B3gico.br
  
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-        Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
-        Referenciar todas as fontes referentes a :
-        a) obtenção dos dados
-        b) obtenção de códigos reutilizados
-        c) fontes de estudo para desenvolvimento do projeto
+        Dados fictícios, obtidos através da criação da tabela.
         
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
-        a) inclusão das instruções para criação das tabelas e estruturas de amazenamento do BD
-        b) inclusão das instruções de inserção dos dados nas referidas tabelas
-        c) inclusão das instruções para execução de outros procedimentos necessários
-
-
-        Entrega até este ponto em (data a ser definida)
+       Script para criação da tabela: https://github.com/PrecoBaixo/Trabalho01/blob/master/Cria%20banco%20de%20dados.sql
+       Script para inserção de dados na tabela: https://github.com/PrecoBaixo/Trabalho01/blob/master/insert.sql
         
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
@@ -136,12 +122,55 @@ OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mos
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 #### 9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
+   Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Join%20Preco%20Baixo.sql
+   
+   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/join%201.jpg)
+   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/join%202.jpg)
+   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/join%203.jpg)
+   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/join%204.jpg)
+   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/join%205.jpg)
+   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/join%206.jpg)
+   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/join%207.jpg)
+   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/join%208.jpg)
+   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/join%209.jpg)
+   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/join%2010.jpg)
+   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/join%2011.jpg)
+   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/join%2012.jpg)
+   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/join%2013.jpg)
+   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/join%2014.jpg)
+        
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
-        Entrega até este ponto em (data a ser definida)
+   Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by.sql
+   
+   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by%201.jpg)
+   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by%202.jpg)
+   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by%203.jpg)
+   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by%204.jpg)
+   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by%205.jpg)        
         
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
+   Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Left%20e%20Right%20Join.sql
+   
+   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Left%20e%20Right%20Join%201.jpg)
+   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Left%20e%20Right%20Join%202.jpg)
+   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Left%20e%20Right%20Join%203.jpg)
+   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Left%20e%20Right%20Join%204.jpg)
+   
 #### 9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
+  Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Views.sql
+  
+  ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/view%201.jpg)
+  ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/view%202.jpg)
+  ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/view%203.jpg)
+  ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/view%204.jpg)
+  
 #### 9.10	SUBCONSULTAS (Mínimo 3) <br>
+  Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/subconsultas.sql
+  
+  ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/subconsulta%201.jpg)
+  ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/subconsulta%202.jpg)
+  ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/subconsulta%203.jpg)
+  
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 ### 11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 
