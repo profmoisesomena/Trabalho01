@@ -53,7 +53,7 @@ b)
 
 #### 5.2 DECISÕES DE PROJETO
     Tabela USUARIO:
-      Campo id_user: optamos por utilizar como campo determinante para indentificação do usuário na hora de realizar algum tipo de consulta.
+      Campo id_usuario: optamos por utilizar como campo determinante para indentificação do usuário na hora de realizar algum tipo de consulta.
       Campo email, senha, apelido, nome_completo, telefone: optamos por utilizar campos simples, apenas para registro em nosso sistema e futuras utilizações em modo de exibição.
     Tabela SEXO:
       Campo id_sexo: optamos por utilizar como campo determinante para indentificação do usuário na hora de realizar algum tipo de consulta, pois será apenas 0 e 1, indicando 'M' ou 'F'.
@@ -105,7 +105,7 @@ b)
     MUNICIPIO_ESTADO: Tabela que armazena qual município está relacionado a qual estado.
     ENDRECO_CEP: Tabela que armazena qual endreço está relacionado ao CEP.
 
-
+    id_usuario: campo que armazena o id do usuário.
     email: campo que armazena o email do usuário.
     senha: campo que armazena a senha do usuário.
     nome_completo: campo que armazena o nome completo do usuário.
