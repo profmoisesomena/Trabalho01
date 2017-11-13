@@ -117,7 +117,7 @@ b)
 ![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/L%C3%B3gico_CookInc.png?raw=true "Modelo Lógico")
 
 ### 7	MODELO FÍSICO<br>
-![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/Modelo_Fisico_CookInc.sql?raw=true "Modelo Físico")
+Modelo Físico: https://github.com/CookIncBD2/Trabalho01/blob/master/Modelo_Fisico_CookInc.sql
  
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 
