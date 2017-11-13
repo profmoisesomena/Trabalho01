@@ -117,6 +117,78 @@ Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_L%C3%B3gico.br
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
+
+
+select * from bairro;
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/bairro.PNG)
+
+
+select * from categoria;
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/categoria.PNG)
+
+select * from cidade;
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/cidade.PNG)
+
+select * from contem;
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/contem.PNG)
+
+select * from esta;
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/esta.PNG)
+
+select * from esta_contido;
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/esta_contido.PNG)
+
+select * from imagem;
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/imagem.PNG)
+
+select * from pertence;
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/pertence.PNG)
+
+select * from possui;
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/possui.PNG)
+
+select * from prod_tag;
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/prod_tag.PNG)
+
+select * from produto;
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/produto.PNG)
+
+select * from publica;
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/publica.PNG)
+
+select * from quantidade;
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/quantidade.PNG)
+
+select * from supermercado;
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/supermercado.PNG)
+
+select * from tag;
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/tag.PNG)
+
+select * from tem;
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/tem.PNG)
+
+select * from un_medida;
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/un_medida.PNG)
+
+select * from usuario;
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
