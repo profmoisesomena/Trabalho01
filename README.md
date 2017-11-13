@@ -78,13 +78,34 @@ b)
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
 
-    SEXO: Tabela que armazena as informações relativas ao sexo do usuário.
+
     USUARIO: Tabela que armazena as informações relativas ao usuário.
-    ENDERECO: Tabela que armazena as informações relativas ao endereco do usuário.
-    COMENTARIO: Tabela que armazena as informações relativas ao comentario que o usuário fez/recebeu.
-    CATEGORIA Tabela que armazena as informações relativas às categorias.
     RECEITA: Tabela que armazena as informações relativas a receita.
-    
+    COMENTARIO: Tabela que armazena as informações relativas ao comentario que o usuário fez.
+    CATEGORIA Tabela que armazena as informações relativas às categorias.
+    SEXO: Tabela que armazena as informações relativas ao sexo do usuário.
+    COMENTARIO_SUB: Tabela que armazena as informações relativas ao comentario que o usuário fez em outro comentário.
+    ENDERECO: Tabela que armazena as informações relativas ao endereco do usuário.
+    INGREDIENTE: Tablela que armazena os ingredientes que fazer parte de uma receita ou não.
+    TAG: Tabela que armazena a tag de uma receita.
+    DATA: Tabela que armazena datas.
+    HORA: Tabela que armazena horários
+    FAVORITO: Tabela que armazena as receitas que um usuario favoritou.
+    ESTADO_UF: Tabela que armazena UF's de Estado.
+    MUNICIPIO: Tabela que armazena nomes de Municípios.
+    BAIRRO: Tabela que armazena nomes de Bairros.
+    LOGADOURO: Tabela que armazena Logadouros.
+    CEP: Tabela que armazena CEP's
+    QUANTIDADE: Tabela que armazena a quantidade de ingredientes de uma receita.
+    TEMPO_DE_PREPARO: Tabela que armazena tempo de preparo de uma ou mais receitas.
+    SEGUE: Tabela que armazena quais usuário outro usuário segue.
+    ID_COMENTARIO: Tabela que armazena o id de um comentário.
+    RECEITA_INGREDIENTE: Tabela que armazena qual receita está relacionada a qual ingrediente.
+    RECEITA_TAG: Tabela que armazena qual taag está relacionada a qual receita.
+    MUNICIPIO_ESTADO: Tabela que armazena qual município está relacionado a qual estado.
+    ENDRECO_CEP: Tabela que armazena qual endreço está relacionado ao CEP.
+
+
     email: campo que armazena o email do usuário.
     senha: campo que armazena a senha do usuário.
     nome_completo: campo que armazena o nome completo do usuário.
