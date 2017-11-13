@@ -53,25 +53,25 @@ b)
 
 #### 5.2 DECISÕES DE PROJETO
     Tabela USUARIO:
-      Campo id_user: optamos por utilizar um campo simples para indentificação do usuário na hora de realizar algum tipo de consulta.
+      Campo id_user: optamos por utilizar como campo determinante para indentificação do usuário na hora de realizar algum tipo de consulta.
       Campo email, senha, apelido, nome_completo, telefone: optamos por utilizar campos simples, apenas para registro em nosso sistema e futuras utilizações em modo de exibição.
     Tabela SEXO:
-      Campo id_sexo: optamos por utilizar um campo simples para indentificação do usuário na hora de realizar algum tipo de consulta, pois será apenas 0 e 1, indicando 'M' ou 'F'.
+      Campo id_sexo: optamos por utilizar como campo determinante para indentificação do usuário na hora de realizar algum tipo de consulta, pois será apenas 0 e 1, indicando 'M' ou 'F'.
       Campo m/f: optamos por utilizar um campo simples para correlação com seu respectivo ID.
     Tabela ENDERECO:
-      Campo id_endereco: optamos por utilizar um campo simples para facil indentificação do seu respectivo UF.
+      Campo id_endereco: optamos por utilizar como campo determinante para facil indentificação do seu respectivo UF.
       Campo nome(uf): campo simples apenas para relacionar o ID com o estado(UF).
     Tabela COMENTARIO:
-      Campo id_coment: campo simples apenas para relacionar o ID com o texto.
+      Campo id_coment: optamos por utilizar como campo determinante apenas para relacionar o ID com o texto.
       Campo texto: Campo multivalorado, pois ele irá armazenar todo o texto digitado pelo usuário.
     Tabela ENVIADO/RECEBIDO:
-      Campo id_coment: optamos por utilizar um campo simples para indentificação do usuário na hora de realizar algum tipo de consulta, pois será apenas 0 e 1, indicando 'Enviado' ou 'Recebido'.
+      Campo id_coment: optamos por utilizar como campo determinante para indentificação do usuário na hora de realizar algum tipo de consulta, pois será apenas 0 e 1, indicando 'Enviado' ou 'Recebido'.
       Campo enviad/receb: optamos por utilizar um campo simples para correlação com seu respectivo ID.
     Tabela CATEGORIA:
-      Campo id_coment: optamos por utilizar um campo simples para indentificação do usuário na hora de realizar algum tipo de consulta, pois será amazenado cada categoria com um número indentificador.
+      Campo id_coment:optamos por utilizar como campo determinante para indentificação do usuário na hora de realizar algum tipo de consulta, pois será amazenado cada categoria com um número indentificador.
       Campo nome: optamos por utilizar um campo simples apenas para guardar o nome da categoria e para correlação com seu respectivo ID.
     Tabela RECEITA:
-      Campo id_rec: campo simples, pois será apenas para indentificação.
+      Campo id_rec: optamos por utilizar como campo determinante para indentificação de receitas.
       Campos nome, imagem, video_tutorial, colocacao, porcoes, tempo de preparo, contador_top, contador_lixo: Optamos na ultilização de campo simples, pois será o sefuciente para nosso projeto.
       Campos ingrediente, modo de praparo: optamos por campos simples, porém com uma grande quantidade de armazenamento de texto.
     
@@ -85,33 +85,67 @@ b)
     CATEGORIA Tabela que armazena as informações relativas às categorias.
     RECEITA: Tabela que armazena as informações relativas a receita.
     
-    id_sexo: campo que armazena o número de id que cada sexo representa.
-    m/f: campo que armazena o sexo do usuario.
     email: campo que armazena o email do usuário.
     senha: campo que armazena a senha do usuário.
-    apelido: campo que armazena o apelido do usuário.
     nome_completo: campo que armazena o nome completo do usuário.
     telefone: campo que armazena o telefone do usuário.
-    num_seguidores: campo que armazena o número de seguidores do usuário.
-    receitas_enviadas: campo que armazena as receitas enviadas pelo usuário.
+    link_imagem: campo que armazena o link da imagem que será utilizada pelo usuário.
+    
     id_rec: campo que armazena o ID da receita.
     nome: campo que armazena o nome da receita.
     imagem: campo que armazena o link da imagem da receita.
     video_tutorial: campo que armazena o link do video tutorial da receita.
-    colocacao: campo que armazena a posição no ranking da receita.
-    ingrediente: campo que armazena os ingredientes da receita.
-    modo_de_preparo: campo que armazena o modo de preparo da receita.
     porcoes: campo que armazena a quantidade de porções da receita.
-    tempo_de_preparo: campo que armazena o tempo de preparo da receita.
-    contador_top: campo que armazena a quantidade de votos positivos que a receita recebeu.
-    contador_lixo: campo que armazena a quantidade de votos negativos que a receita recebeu.
-    nome{uf): campo que armazena os diferentes UFs existentes.
-    id_endereco: campo que armazena o id dos UFs.
+    votos_positivos: campo que armazena a quantidade de votos positivos que a receita recebeu.
+    votos_negativos: campo que armazena a quantidade de votos negativos que a receita recebeu.
+    modo_de_preparo: campo que armazena o modo de preparo da receita.
+    
     id_coment: campo que armazena o id dos comentário.
     texto: campo que armazena o texto do comentário.
-    envia_receb: campo que armazena comentário foi enviado ou recebido pleo usuários.
+    
     id_cat: campo que armazena o id da categoria.
     nome: campo que armazena o nome da categoria.
+    
+    id_sexo: campo que armazena o número de id que cada sexo representa.
+    m/f: campo que armazena o sexo do usuario.
+    
+    id_endereco: campo que armazena o id dos endrecos.
+    numero: campo que armazena o umero da residencia
+    complemento: campo que armazena o omplemento da residencia
+    
+    id_ingrediente: campo que armazena o id do ingrediente
+    nome: campo que armazena o nome do ingrediente
+
+    id_tag: campo que armazena o id da tag
+    nomeTag: campo que armazena o texto da tag
+    
+    id_data: campo que armazena o id da data
+    data: campo que armazena a data
+    
+    id_hora: campo que armazena o id da hora
+    hora: campo que armazena a hora
+    
+    id_estado: campo que armazena o id do estado
+    uf: campo que armazena o UF dos estados
+    
+    id_municipio: campo que armazena o id do municipio
+    nome: campo que armazena o nome do municipio
+    
+    id_bairro: campo que armazeno o id do bairro
+    nome: campo que armazena o nome do bairro
+    
+    id_logadouro: campo que armazena o id do logadouro
+    nome: campo que armazena o nome do logadouro
+    
+    id_cep: campo que armazena o id do cep
+    cep: campo que armazena o nome o cep
+    
+    id_quantidade: campo que armazena o id da quantidade
+    qunatidade: campo que armazena a qunatidade de um ingrediente
+    
+    id_tempo: campo que armazena o id do tempo
+    tempo: campo que armazena o tempo de preparo de uma receita
+    
     
 ### 6	MODELO LÓGICO<br>
 ![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/L%C3%B3gico_CookInc.png?raw=true "Modelo Lógico")
