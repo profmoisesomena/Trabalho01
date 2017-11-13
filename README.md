@@ -42,7 +42,7 @@ Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Tabela%20BD.xlsx
 ### 5.MODELO CONCEITUAL<br>
     a) NOTACAO ENTIDADE RELACIONAMENTO
 
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_conceitual.jpg)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo%20conceitual.png)
 
 Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_conceitual.brM3    
     
