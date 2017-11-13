@@ -21,7 +21,7 @@ Sergio Vago: sergio.vago@hotmail.com <br>
 avaliadas e seus autores, abas poderão levar às categorias que respectivamente também exibirão sua melhor receita e o espaço para que o usuário possa se cadastrar ou fazer login em sua conta.
  
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/CookInc.png?raw=true "MOCKUP")
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/mockup_exemplo_cook_inc.png?raw=true "MOCKUP")
 
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
