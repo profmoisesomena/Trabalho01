@@ -219,6 +219,19 @@ where nome is not null
 
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
+select * from produto where nome like "%C%";
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/9.2/9.3/9.4/pesquisa1.PNG)
+
+select * from cidade where nome like "S____";
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/9.2/9.3/9.4/pesquisa2.PNG)
+
+select * from bairro where nome like "%E%"
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/9.2/9.3/9.4/pesquisa3.PNG)
+
+
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 #### 9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
    Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Join%20Preco%20Baixo.sql
