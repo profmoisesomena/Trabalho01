@@ -205,6 +205,19 @@ select * from un_medida where tipo = "unidade";
 ![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/9.2/pesquisa%20un_medida.PNG)
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
+
+select nome, preco as "produtos e preços" from produto where nome = "Manga" or preco > 4;
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/9.2/9.3/pesquisa1.PNG)
+
+
+select nome as "somente nome de categoria" from categoria 
+where nome is not null
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/9.2/9.3/pesquisa2.PNG)
+
+
+
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 #### 9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
