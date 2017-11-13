@@ -138,18 +138,108 @@ Modelo Físico: https://github.com/CookIncBD2/Trabalho01/blob/master/Modelo_Fisi
         
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
-#### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
-#### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
-#### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
-#### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
-#### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
-#### 9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
-#### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
-        Entrega até este ponto em (data a ser definida)
-        
-#### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
-#### 9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
-#### 9.10	SUBCONSULTAS (Mínimo 3) <br>
+#### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS <br>
+SCRIPT: https://github.com/CookIncBD2/Trabalho01/blob/master/9.1.sql <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.1-Bairro.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.1-categoria.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.1-cep.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.1-comentario.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.1-comentario_sub.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.1-data.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.1-endereco.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.1-endereco_cep.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.1-estado_uf.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.1-favorito.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.1-hora.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.1-id_comentario.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.1-ingrediente.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.1-municipio.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.1-municipio_estado.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.1-quantidade.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.1-receita.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.1-receita_ingrediente.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.1-segue.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.1-sexo.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.1-tag.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.1-tempo_de_preparo.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.1-usuario.PNG?raw=true) <br>
+<br>
+<br>
+<br>
+#### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE <br>
+SCRIPT: https://github.com/CookIncBD2/Trabalho01/blob/master/9.2.sql <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.2-1.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.2-2.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.2-3.PNG?raw=true) <br>
+<br>
+<br>
+<br>
+#### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS <br>
+SCRIPT: https://github.com/CookIncBD2/Trabalho01/blob/master/9.3.sql <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.3-1.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.3-2.PNG?raw=true) <br>
+<br>
+<br>
+<br>
+#### 9.4	CONSULTAS QUE USAM OPERADORES LIKE <br>
+SCRIPT: https://github.com/CookIncBD2/Trabalho01/blob/master/9.4.sql <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.4-1.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.4-2.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.4-3.PNG?raw=true) <br>
+<br>
+<br>
+<br>
+#### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS <br>
+SCRIPT: https://github.com/CookIncBD2/Trabalho01/blob/master/9.5.sql <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.5-1.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.5-2.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.5-3.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.5-4.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.5-5.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.5-6.PNG?raw=true) <br>
+<br>
+<br>
+<br>
+#### 9.6	CONSULTAS COM JUNÇÃO <br>
+SCRIPT: https://github.com/CookIncBD2/Trabalho01/blob/master/9.6.sql <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.6-1.PNG?raw=true) <br>
+<br>
+<br>
+<br>
+#### 9.7	CONSULTAS COM GROUP BY <br>
+SCRIPT: https://github.com/CookIncBD2/Trabalho01/blob/master/9.7.sql <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.7-1.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.7-2.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.7-3.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.7-4.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.7-5.PNG?raw=true) <br>
+<br>
+<br>
+<br>       
+#### 9.8	CONSULTAS COM LEFT E RIGHT JOIN <br>
+SCRIPT: https://github.com/CookIncBD2/Trabalho01/blob/master/9.8.sql <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.8-1.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.8-2.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.8-3.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.8-4.PNG?raw=true) <br>
+<br>
+<br>
+<br>
+#### 9.9	CONSULTAS COM SELF JOIN E VIEW <br>
+SCRIPT: https://github.com/CookIncBD2/Trabalho01/blob/master/9.9.sql <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.9-1.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.9-2.PNG?raw=true) <br>
+<br>
+<br>
+<br>
+#### 9.10	SUBCONSULTAS 
+SCRIPT: https://github.com/CookIncBD2/Trabalho01/blob/master/9.10.sql <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.10-1.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.10-2.PNG?raw=true) <br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/9.10-3.PNG?raw=true) <br>
+<br>
+<br>
+<br>
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 ### 11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 
