@@ -114,13 +114,25 @@ b)
     nome: campo que armazena o nome da categoria.
     
 ### 6	MODELO LÓGICO<br>
+![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/L%C3%B3gico_CookInc.png?raw=true "Modelo Lógico")
 
-Modelo lógico: https://github.com/CookIncBD2/Trabalho01/blob/master/L%C3%B3gico___CookInc.brM3
+### 7	MODELO FÍSICO<br>    
+ 
+### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 
-### 7	MODELO FÍSICO E INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
+#### 8.1 DETALHAMENTO DAS INFORMAÇÕES
+        Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
+        Referenciar todas as fontes referentes a :
+        a) obtenção dos dados
+        b) obtenção de códigos reutilizados
+        c) fontes de estudo para desenvolvimento do projeto
 
-Script do Modelo Físico: https://github.com/CookIncBD2/Trabalho01/blob/master/CookInc_SQLScript___Sergio_Isabella.sql
-
+## Entrega até este ponto em (20/09/2017)
+        
+#### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
+        a) inclusão das instruções para criação das tabelas e estruturas de amazenamento do BD
+        b) inclusão das instruções de inserção dos dados nas referidas tabelas
+        c) inclusão das instruções para execução de outros procedimentos necessários
         
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
