@@ -189,7 +189,21 @@ select * from un_medida;
 ![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/un_medida.PNG)
 
 select * from usuario;
+
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
+
+select * from bairro where nome = "Jardim da Penha";
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/9.2/pesquisa%20bairro.PNG)
+
+select * from supermercado where nome = "Walmart";
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/9.2/pesquisa%20supermercado.PNG)
+
+select * from un_medida where tipo = "unidade";
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/9.2/pesquisa%20un_medida.PNG)
+
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
