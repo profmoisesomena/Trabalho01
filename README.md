@@ -42,7 +42,7 @@ Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Tabela%20BD.xlsx
 ### 5.MODELO CONCEITUAL<br>
     a) NOTACAO ENTIDADE RELACIONAMENTO
 
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo%20conceitual.png)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_conceitual.jpg)
 
 Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_conceitual.brM3    
     
@@ -235,6 +235,26 @@ select * from bairro where nome like "%E%"
 
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+
+UPDATE produto set nome = 'Limão' where nome="Café";
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/9.5/update1.PNG)
+
+UPDATE produto set preco = 3.00 where nome="Limão";
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/9.5/update2.PNG)
+
+
+UPDATE supermercado set nome = 'São José' where nome="Atacadão";
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/9.5/update3.PNG)
+
+delete from tem where FK_USUARIO_cod_usuario = 1;
+delete from publica where FK_USUARIO_cod_usuario = 1;
+delete from usuario where cod_usuario = 1;
+
+![alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/9.5/delete%20todos.PNG)
+
 #### 9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
    Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Join%20Preco%20Baixo.sql
    
