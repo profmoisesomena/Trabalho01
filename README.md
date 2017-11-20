@@ -22,9 +22,26 @@ O usuário pode pesquisar por um determinado produto, afim de encontrar o menor 
 Mas, lembrando que para tudo ocorra bem, é vital a participação dos usuários, pois eles que ficam encarregados de colaborar com as publicações de promoções, bem como adicionar novas categorias e supermercados. E com essa interação dos usuários, a aplicação cresceria, se tornando uma grande comunidade que ajudaria a muitas pessoas na hora de ir as compras no supermercado. <br>
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Pre%C3%A7o-Baixo.png)
 
-Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Pre%C3%A7o%20Baixo.pdf
+LOGIN
+
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Login.PNG)
+
+CADASTRO
+
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/cadastro.PNG)
+
+TELA INICIAL
+
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/telaInicial.PNG)
+
+DETALHE DA OFERTA
+
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/detalheOferta.PNG)
+
+ADICIONAR OFERTA
+
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/adicionarOferta.PNG)
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
     
