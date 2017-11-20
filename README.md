@@ -53,27 +53,86 @@ b)
 
 #### 5.2 DECISÕES DE PROJETO
     Tabela USUARIO:
-      Campo id_usuario: optamos por utilizar como campo determinante para indentificação do usuário na hora de realizar algum tipo de consulta.
-      Campo email, senha, apelido, nome_completo, telefone: optamos por utilizar campos simples, apenas para registro em nosso sistema e futuras utilizações em modo de exibição.
-    Tabela SEXO:
-      Campo id_sexo: optamos por utilizar como campo determinante para indentificação do usuário na hora de realizar algum tipo de consulta, pois será apenas 0 e 1, indicando 'M' ou 'F'.
-      Campo m/f: optamos por utilizar um campo simples para correlação com seu respectivo ID.
-    Tabela ENDERECO:
-      Campo id_endereco: optamos por utilizar como campo determinante para facil indentificação do seu respectivo UF.
-      Campo nome(uf): campo simples apenas para relacionar o ID com o estado(UF).
-    Tabela COMENTARIO:
-      Campo id_coment: optamos por utilizar como campo determinante apenas para relacionar o ID com o texto.
-      Campo texto: Campo multivalorado, pois ele irá armazenar todo o texto digitado pelo usuário.
-    Tabela ENVIADO/RECEBIDO:
-      Campo id_coment: optamos por utilizar como campo determinante para indentificação do usuário na hora de realizar algum tipo de consulta, pois será apenas 0 e 1, indicando 'Enviado' ou 'Recebido'.
-      Campo enviad/receb: optamos por utilizar um campo simples para correlação com seu respectivo ID.
-    Tabela CATEGORIA:
-      Campo id_coment:optamos por utilizar como campo determinante para indentificação do usuário na hora de realizar algum tipo de consulta, pois será amazenado cada categoria com um número indentificador.
-      Campo nome: optamos por utilizar um campo simples apenas para guardar o nome da categoria e para correlação com seu respectivo ID.
+      Campo id_usuario: optamos por utilizar como campo determinante para identificação do usuário.
+      Campo email: optamos por utilizar um campo simples, que sera utilizado para realizar login em nosso sistema. 
+      Campo senha: optamos por utilizar um campo simples, que sera utilizado para realizar login em nosso sistema. 
+      Campo nome_completo: optamos por utilziar um campo composto, que servira para coleta de dados.
+      Campo telefone: optamos por utilziar um campo simples, que servira para coleta de dados.
+      Campo link_imagem: optamos por utilziar um campo simples, que recebera o link de uma imagem.
+    
     Tabela RECEITA:
-      Campo id_rec: optamos por utilizar como campo determinante para indentificação de receitas.
-      Campos nome, imagem, video_tutorial, colocacao, porcoes, tempo de preparo, contador_top, contador_lixo: Optamos na ultilização de campo simples, pois será o sefuciente para nosso projeto.
-      Campos ingrediente, modo de praparo: optamos por campos simples, porém com uma grande quantidade de armazenamento de texto.
+      Campo id_rec: optamos por utilizar como campo determinante para identificação da receita.
+      Campo nome: optamos por utilziar um campo composto, que armazenara o nome da receita.
+      Campo imagem: optamos por utilziar um campo simples, que recebera o link de uma imagem.
+      Campo video_tutorial: optamos por utilziar um campo simples, que recebera o link de um video para tutorial da receita.
+      Campo porcoes:  optamos por utilziar um campo composto, que armazena as pocoes de uma receita. Exemplo: "Serve duas pessoas".
+      Campo votos_positivos: optamos por utilziar um campo simples, para armazenar a quantidade de votos positivos que a receita recebeu.
+      Campo votos_negativos: optamos por utilziar um campo simples, para armazenar a quantidade de votos negativos que a receita recebeu.
+      Campo modo_de_preparo: optamos por utilziar um campo composto, para armazenar o modo de preparo da receita.
+    
+    Tabela COMENTARIO:
+      Campo id_coment: optamos por utilizar um campo determinante para identificação do comentario.
+      Campo texto: optamos por utilizar um campo composto, pois ele irá armazenar todo o texto digitado pelo usuário.
+    
+    Tabela CATEGORIA:
+       Campo id_cat: optamos por utilizar como campo determinante para identificação da categoria.
+       Campo nome: optamos por utilizar um campo simples, pois salvara o nome da categoria, composto apenas por uma palavra.
+    
+    Tabela SEXO:
+      Campo id_sexo: optamos por utilizar como campo determinante para identificação na hora de realizar algum tipo de consulta, pois será apenas 0 e 1, indicando 'M' ou 'F'.
+      Campo m_f: optamos por utilizar um campo simples, para correlação com seu respectivo ID.
+       
+    Tabela ENDERECO:
+      id_endereco: optamos por utilizar como campo determinante para identificação do endereco.
+      numero: optamos por utilizar um campo simples que armazena o numero da residencia.
+      complemento:  optamos por utilizar um campo composto, pois o complemento vem acompanhado de varias palavras .
+
+    Tabela INGREDIENTE:
+      id_ingrediente: optamos por utilizar como campo determinante para identificação do ingrediente.
+      nome: optamos por utilizar como campo composto, pois o nome pode ser composto.
+      
+    Tabela TAG
+      id_tag: optamos por utilziar como campo determinante para a identificação de uma tag.
+      nomeTag: optamos por utilziar como um campo simples, pois as tags so podem possuir 1 valor.
+      
+    Tabela DATA:
+      id_data: optamos por utilziar como campo determinante para a identificação de uma data.
+      data: optamos por utilizar um campo simples do tipo date para armazenar data.
+      
+    Tabela HORA
+      id_hora: optamos por utilziar como campo determinante para a identificação de uma data.
+      hora: optamos por utilizar um campo simples do tipo date para armazenar horas "especificas".
+      
+    Tabela ESTADO_UF:
+       id_estado: optamos por utilziar como campo determinante para a identificação de um Estado.
+       uf: optamos por utilizar um campo simples, pois os estados serao representados apenas pelos seus respectivos UF's.
+    
+    Tabela MUNICIPIO:
+      id_municipio: optamos por utilziar como campo determinante para a identificação de um Municipio.
+      nome: optamos por utilizar um campo composto, pois alguns municipios possuem nomes compostos.
+      
+    Tabela BAIRRO:
+      id_bairro: optamos por utilziar como campo determinante para a identificação de um Bairro.
+      nome: optamos por utilizar um campo composto, pois alguns bairros possuem nomes compostos.
+    
+    Tabela LOGADOURO:
+      id_logadouro: optamos por utilziar como campo determinante para a identificação de um Logadouro.
+      nome: optamos por utilizar um campo composto, pois logadouros, na maioria, possuem nomes compostos.
+    
+    Tabela CEP:
+      id_cep: optamos por utilziar como campo determinante para a identificação de um CEP.
+      cep: optamos por utilziar como campo simples, pois CEP's são formados por numeros.
+    
+    Tabela QUANTIDADE:
+      id_quantidade: optamos por utilziar como campo determinante para a identificação de certa quantidade.
+      quantidade: optamos por utilziar como campo composto, pois vem com sua respectiva medida.
+    
+    Tabela TEMPO_DE_PREPARO:
+    id_tempo: optamos por utilziar como campo determinante para a identificação de determinado tempo.
+    tempo: optamos por utilziar como campo composto, pois acompanhado de sua respectiva medida de tempo (hora,minutos,segundos,etc.).
+    
+    
+    
     
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
@@ -162,7 +221,7 @@ b)
     cep: campo que armazena o nome o cep
     
     id_quantidade: campo que armazena o id da quantidade
-    qunatidade: campo que armazena a qunatidade de um ingrediente
+    quantidade: campo que armazena a qunatidade de um ingrediente
     
     id_tempo: campo que armazena o id do tempo
     tempo: campo que armazena o tempo de preparo de uma receita
