@@ -15,11 +15,10 @@ Sergio Vago: sergio.vago@hotmail.com <br>
 
   
 ### 3.MINI-MUNDO<br>
-&nbsp;&nbsp;&nbsp;&nbsp;A cookInc foi pensado no formato de um site que possuirá um gigante banco de dados que armazenam várias receitas.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Seu grande diferencial dos demais sites que já possuem essa mesma função é que nele haverá uma ferramenta de pesquisa que irá refinar a busca em palavras-chave que ajudarão o usuário a filtrar, de acordo com sua preferência ou necessidade, ingredientes (e sua quantidade), porção, tempo de preparo e categoria. O usuário também poderá fazer o cadastro no site e quando logado, o mesmo, poderá interagir com receitas (comentando e/ou avaliando) e seus autores (adicionando à lista de contatos) além de poder fazer a sua própria postagem (que será aprovada ou reprovada pelos próprios usuários). Atualizações sobre interação, aprovação de uma postagem, ou nova postagem de algum contato da sua lista serão notificadas através do e-mail. <br>
-&nbsp;&nbsp;&nbsp;&nbsp;A página principal do site terá um ranking dizendo quais as três receitas melhor
-avaliadas e seus autores, abas poderão levar às categorias que respectivamente também exibirão sua melhor receita e o espaço para que o usuário possa se cadastrar ou fazer login em sua conta.
+&nbsp;&nbsp;&nbsp;&nbsp;A Cook Inc é um site de receitas com um gigante banco de dados capaz de guardar uma infinidade de possíveis combinações de ingredientes e receitas para que o usuário não fique restrito às costumeiras "receitas da vovó". <br>
+&nbsp;&nbsp;&nbsp;&nbsp;Seu potencial e grande diferencial começa na filtragem de receitas por palavras-chave através da ferramenta de pesquisas buscando as que melhor atendem à busca do usuário. O site também dispõe de um ranking semanal que é exibido na página principal, propondo assim, à quem não tem nenhuma procura específica, uma proposta de receita que está em alta. <br>
  
+
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 ![Alt text](https://github.com/CookIncBD2/Trabalho01/blob/master/mockup_exemplo_cook_inc.png?raw=true "MOCKUP")
 
